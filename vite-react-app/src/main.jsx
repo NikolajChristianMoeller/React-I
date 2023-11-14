@@ -14,6 +14,10 @@ class App extends React.Component {
   }
 }
 
+function App() {
+  return <h1>Hej!</h1>
+}
+
 class Header extends React.Component {
   render() {
     return (
@@ -22,6 +26,10 @@ class Header extends React.Component {
       </header>
     );
   }
+}
+
+function Header() {
+  return <header>Hej!</header>
 }
 
 class Greeting extends React.Component {
@@ -38,6 +46,10 @@ class Greeting extends React.Component {
 
     return <h1>God{timeOfDay} og velkommen til 🎉</h1>;
   }
+}
+
+function Greeting() {
+  return <h1>Hej!</h1>
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
